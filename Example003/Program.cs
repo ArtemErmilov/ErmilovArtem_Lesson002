@@ -23,6 +23,8 @@ else
     int div = 1;
     double x = 10;
 
+    
+
     while (begin != 0) 
     {
         begin = aInt / contri;

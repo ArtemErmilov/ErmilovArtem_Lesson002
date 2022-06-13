@@ -1,4 +1,4 @@
-﻿// ДЗ 2.
+﻿// ДЗ 2.ДЗ 2.
 //Задача 1: 
 //Напишите программу, которая принимает на
 // вход трёхзначное число и на выходе показывает вторую
@@ -11,7 +11,7 @@ Console.Write("Введите 3-х значное число: ");
 string aString = Console.ReadLine();
 int aInt = int.Parse(aString);
 
-while (!(99<aInt)||aInt>999)
+while (!(100<aInt)||aInt>999)
 {
     Console.Write("Вы ввели не 3-х значное число, введите его заново: ");
     string a1String = Console.ReadLine();
