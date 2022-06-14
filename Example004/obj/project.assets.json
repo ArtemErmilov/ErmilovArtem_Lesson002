@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Артём Ермилов\\.nuget\\packages\\": {}
+    "C:\\Users\\SBB2-Ермилов Артём\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Артём Ермилов\\YandexDisk\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\Example004.csproj",
+      "projectUniqueName": "C:\\Users\\SBB2-Ермилов Артём\\YandexDisk-artyomermiloff\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\Example004.csproj",
       "projectName": "Example004",
-      "projectPath": "C:\\Users\\Артём Ермилов\\YandexDisk\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\Example004.csproj",
-      "packagesPath": "C:\\Users\\Артём Ермилов\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Артём Ермилов\\YandexDisk\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\obj\\",
+      "projectPath": "C:\\Users\\SBB2-Ермилов Артём\\YandexDisk-artyomermiloff\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\Example004.csproj",
+      "packagesPath": "C:\\Users\\SBB2-Ермилов Артём\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SBB2-Ермилов Артём\\YandexDisk-artyomermiloff\\GeegBrains\\C#\\Homework\\Lesson002\\Example004\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Артём Ермилов\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\SBB2-Ермилов Артём\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
