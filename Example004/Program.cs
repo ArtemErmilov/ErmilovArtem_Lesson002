@@ -12,7 +12,7 @@ int aInt = int.Parse(aString);
 while (!(0<aInt)||aInt>7)
 {
     Console.Write("Вы ввели не то число,  введите число от 1 до 7 заново: ");
-    string a1String = Console.ReadLine();
+    string a1Stringig = Console.ReadLine();
     int a1Int = int.Parse(a1String);
     aInt=a1Int;
 }
