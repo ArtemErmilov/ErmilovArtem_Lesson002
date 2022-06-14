@@ -9,7 +9,7 @@ Console.Write("Введите день недели в виде числа от 
 string aString = Console.ReadLine();
 int aInt = int.Parse(aString);
 
-while (!(0<aInt)||aInt>7)
+while (0<aInt||aInt>7)
 {
     Console.Write("Вы ввели не то число,  введите число от 1 до 7 заново: ");
     string a1Stringig = Console.ReadLine();

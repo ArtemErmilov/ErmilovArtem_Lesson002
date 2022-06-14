@@ -5,51 +5,44 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.Write("Введите число: ");
-string aString = Console.ReadLine();
-int aInt = int.Parse(aString);
-
-if (aInt < 100)
+int prompt(string message) // Ввод числа ( функция )
 {
-    Console.WriteLine($"Вы ввели число {aInt}, у которого нет 3-й цифры ");
+    Console.Write(message);
+    string a_String = Console.ReadLine();
+    int a_Int = int.Parse(a_String);
+    return a_Int;
+
+}
+
+
+
+int aInt1 = prompt("Введите число: ");
+
+int aInt= Math.Abs(aInt1);
+string numberString = aInt.ToString();
+int number = numberString.Length;
+
+
+
+if (number < 3)
+{
+    Console.WriteLine($"Вы ввели число {aInt1}, у которого нет 3-й цифры. ");
 }
 
 else
 
 {
-    int contri = 10;
-    int begin = aInt;
-    double summ = 0;
-    int div = 1;
-    double x = 10;
-
     
 
-    while (begin != 0) 
+    int index = number-2;
+    int bInt = 0;
+
+    while (index > 0)
     {
-        begin = aInt / contri;
-        contri = contri * 10;
-        summ++;
-        
+        bInt = aInt % 10;
+        aInt = aInt / 10;
+        index--;
     }
 
-    
-
-    int sumWh1 = 0;
-    int c1 = aInt;
-    int c2 = 0;
-
-    while (sumWh1 < 3)
-    {
-        div = Convert.ToInt32(Math.Pow(x, summ - 1));
-        c2 = c1 / div;
-        c1 = c1 - (c2 * div);
-
-        sumWh1++;
-        summ--;
-
-    }
-
-
-    Console.WriteLine($"В числе {aInt} 3-я цифра равняется {c2}");
+    Console.WriteLine($"В числе {aInt1} 3-я цифра равняется {bInt}");
 }
